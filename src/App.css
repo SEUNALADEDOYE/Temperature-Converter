@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+h1{
+  padding-left: 50%;
+  width: 90%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-weight: 400;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.writing{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  gap: 410px;
+}
+.f-row{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  width: 280%;
+}
+#f-checkbox{
+  width: 30%;
+  height: 40px;
+  font-size: 20px;
+}
+#s-checkbox{
+  width: 30%;
+  height: 40px;
+  font-size: 20px;
+}
+.t-checkbox{
+  width: 180.7%;
+  height: 40px;
+  font-size: 20px;
+}
+button{
+  width: 18%;
+  height: 39px;
+  background-color: #1e5edd;
+  color: white;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.clear-btn{
+  width: 16%;
+  height: 39px;
+  background-color: #1351cc;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.buttons{
+  display: flex;
+  gap: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.outer{
+  position: absolute;
+  top: 17%;
+  padding-left: 24%;
+  box-shadow: 0px 0px  11px  #a9a3a3;
+  border-radius: 10%;
+  height: 80%;
+}
+.outside{
+  padding-left: 20%;
+  width: 70%;
+}
+form{
+  width: 85%;
+ margin-left: -60%;
+}
+@media (max-width:991.98px){
+  .outside{
+    padding-left: 2%;
   }
-  to {
-    transform: rotate(360deg);
+  .outer{
+    position: absolute;
+    top: 13%;
+    height: 63%;
+    width: 72%;
+    box-shadow: 0px 0px  21px  #a9a3a3;
+  }
+  form{
+    font-size: small;
+    width: 65%;
+   margin-left: -32%;
+  }
+  h1{
+    font-size: 20px;
+    width: 510%;
+  }
+  .writing{
+    gap: 230px
+  }
+  #f-checkbox{
+    font-size: 16px;
+    width: 30%;
+    height: 34px;
+  }
+  #s-checkbox{
+    font-size: 16px;
+    width: 30%;
+    height: 35px;
+    margin-left: -3%;
+  }
+  .t-checkbox{
+    font-size: 16px;
+  }
+  .buttons{
+    width: 215%;
   }
 }
